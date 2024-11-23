@@ -1,0 +1,271 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+      
+}
+@media only screen and (max-width: 425px) {
+  }
+
+body {
+    display: grid;
+    background-color: #333  ;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0rem;
+    text-align: center;
+    position: sticky;
+}
+
+nav {
+    position: sticky;
+    width: 100%;
+    background-color: #444;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 0px;
+    border: 1px solid #fffb00;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+h1 {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.b1 {
+    width: 50px;
+    height: 20px;
+}
+
+
+
+#home {
+    text-align: center;
+    margin: 30px;
+    background-color: #333;
+}
+#h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.left-image{
+    width: 200px;
+    height: auto;
+    float: left;
+   
+}
+.right-image {
+    width: 200px;
+    height: auto;
+    float: right;
+    
+    
+}
+#p1{
+    border: 1px solid #333;
+    color: #fff;
+    display:grid;
+    margin-top: auto;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+#clanovi{
+    text-align: center;
+    font-size:  20px;
+    
+}
+#clanovi ul{
+    color:#fff;
+    list-style: none;
+}
+
+footer {
+    position:sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+    border:1px solid #fff;
+    color: #fff; 
+    text-align: center;
+}
+/*prva strana*/
+
+
+
+#h3{
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#products {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product {
+    
+    background-color: #f0f0f0;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+}
+.product img {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    display: block;
+}
+.korpa {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.korpa:hover {
+    background-color: #2ecc71;
+}
+/*druga strana*/
+
+
+
+
+
+#subscribe {
+    text-align: center;
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
+    max-width: 600px;
+    margin: 5px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin: 7px;
+    padding: 12px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#kontakt{
+    border: 1px solid #333;
+    background-color: #333;
+    color:#fff;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*treca strana*/
+
+.tank {
+    width: 56px;
+    height: 50px;
+    background-image: url('slike/Sabatenk.png'); 
+    background-size: cover;
+    position: absolute;
+    top: 66px;
+    left: 1%;
+    transform: translateY(-50%);
+    animation: moveTank 4s linear infinite alternate;
+}
+
+
+@keyframes moveTank {
+    to {
+        left:96%;
+    }
+}
+
+.vojnik {
+    width: 50px;
+    height: 50px;
+    background-image: url('slike/vojnik.gif'); 
+    background-size: cover;
+    position: absolute;
+    top: 66px;
+    right: 1%;
+    transform: translateY(-50%);
+    animation: moveVojnik 4s linear infinite alternate;
+}
+
+@keyframes moveVojnik {
+    to {
+        right: 96%;
+    }
+}
+
+.social-icons a {
+    color: white; 
+    font-size: 24px; 
+    margin-right: 10px; 
+    text-decoration: none; 
+}
+
+.social-icons a:hover {
+    color: lightgreen;
+}
+
+/*Univerzal stvari*/

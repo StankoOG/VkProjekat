@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabaton Merch Store - Kontakt</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="slike/ikone.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/70cce1d5d2.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body>
+    <header>
+         <h1>Sabaton Merch Store</h1>
+        <div class="tank"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="products.html">Proizvodi</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="subscribe"   >
+        <h2>Utisci i kontakt</h2>
+        <form onsubmit="proveraForme()" action="#" method="post" >
+            <label for="name">Ime:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="poruka">Poruka:</label>
+            <input  type="text"  id="poruka" name="poruka" >
+
+            <input type="submit"  value="Prijavi se" onclick="forma(event)"  >
+
+        </form>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontaktirajte nas</h2>
+        <p>Za sva pitanja ili dodatne informacije, slobodno nas kontaktirajte.</p>
+        <p>Email: info@sabatonmerchstore.com</p>
+    </section>
+
+    <script src="scrips.js"></script>
+
+    <footer>
+        <p>&copy; 2023 Sabaton Merch Store. Sva prava zadržana.</p>
+        <div class="social-icons">
+            <a href="contact.html"><i class="fab fa-facebook"></i></a>
+            <a href="contact.html"><i class="fab fa-youtube"></i></a>
+            <a href="contact.html"><i class="fab fa-instagram"></i></a>
+    </footer>
+</body>
+</html>
