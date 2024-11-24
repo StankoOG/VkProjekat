@@ -12,7 +12,7 @@ function dodajuKorpu(buttonId) {
         niz.push(document.getElementById('name').value);
         niz.push(document.getElementById('email').value);
         niz.push(document.getElementById('poruka').value);
-        let  poElement = niz.pop();
+         let  poElement = niz.pop();
             console.log("Niz:", niz);
             console.log("Poruka: ", poruka.value);
         }
